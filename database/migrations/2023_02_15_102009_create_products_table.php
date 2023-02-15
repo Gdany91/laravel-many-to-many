@@ -20,11 +20,7 @@ return new class extends Migration
             $table -> integer('price') -> unsigned();
             $table -> integer('weight') -> unsigned() -> default(0);
 
-
-
-
-
-            $table->timestamps();
+             $table->timestamps();
         });
     }
 
